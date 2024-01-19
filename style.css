@@ -1,0 +1,630 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;800&family=Quicksand:wght@500;700&family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  cursor: url("https://cdn.custom-cursor.com/db/cursor/32/fortnite_zero_skin_black_hole_cursor.png"),
+    auto;
+}
+
+.background {
+  z-index: -1;
+  position: relative;
+}
+
+.background video {
+  position: fixed;
+  filter: hue-rotate(334deg);
+  /* width: -webkit-fill-available; */
+}
+
+.container .control img {
+  height: 20px;
+}
+
+.container {
+  height: 98vh;
+  display: flex;
+  user-select: none;
+}
+
+.container .left {
+  display: grid;
+  align-items: end;
+  height: -webkit-fill-available;
+  margin-bottom: 61px;
+  margin-left: 51px;
+}
+
+.container .left .music_player {
+  width: 17rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding: 6px 1px 2px 1px;
+  filter: drop-shadow(2px 4px 6px black);
+  margin-bottom: -26px;
+  background: #77777710;
+  transition: 1s;
+  border: 2px solid #ffffff0f;
+}
+
+.container .left .music_player .image img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10px;
+}
+
+.container .left .music_player .music_right {
+  height: 7rem;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.container .left .music_player .music_right .info {
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.container .left .music_player .music_right .title {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  overflow: hidden;
+}
+
+.container .left .music_player .music_right .createrName {
+  color: gainsboro;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container .left .music_player .music_right .control img {
+  cursor: url("https://cdn.custom-cursor.com/db/pointer/32/fortnite_zero_skin_black_hole_pointer.png"),
+    auto;
+  height: 30px;
+  transition: 0.2s;
+}
+
+/* .container .left .music_player .music_right .control img:hover {
+  height: 32px;
+} */
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.container .middle {
+  height: -webkit-fill-available;
+  width: 156%;
+  display: flex;
+  justify-content: center;
+  margin-top: 118px;
+  font-family: "knight souls personal use", sans-serif;
+  font-size: 74px;
+  color: white;
+  letter-spacing: 20px;
+  margin-left: -163px;
+  user-select: none;
+}
+
+/*  */
+/*  */
+/*  */
+
+.container .right {
+  height: -webkit-fill-available;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 10%;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.container .right::-webkit-scrollbar {
+  display: none;
+}
+
+.container .right .icon {
+  height: 48px;
+}
+
+.container .right img {
+  height: 48px;
+  width: 48px;
+  display: grid;
+  cursor: url("https://cdn.custom-cursor.com/db/pointer/32/fortnite_zero_skin_black_hole_pointer.png"),
+    auto;
+  transition: 0.15s;
+}
+
+.container .right img:hover {
+  height: 60px;
+  width: 60px;
+}
+
+.addicon {
+  background: #1e2029;
+  padding: 17px;
+  border-radius: 9px;
+  position: absolute;
+  display: grid;
+  left: 0;
+  right: 0;
+  bottom: 43%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24rem;
+  height: 10rem;
+  animation: popup-animation 1.1s ease-in-out;
+}
+
+.addicon h2 {
+  color: rgb(240, 242, 255);
+  font-family: "Manrope", sans-serif;
+}
+
+.addicon .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  filter: drop-shadow(0px 0px 8px white);
+}
+
+.addicon .nav .closeicon img {
+  height: 20px;
+  /* background: #ffffff70; */
+  border-radius: 50%;
+  padding: 4px;
+  display: flex;
+  cursor: url("https://cdn.custom-cursor.com/db/pointer/32/fortnite_zero_skin_black_hole_pointer.png"),
+    auto;
+  filter: invert(1);
+}
+
+.addicon .nav .closeicon img:hover {
+  background: #13131370;
+}
+
+.addicon .input {
+  margin-top: 16px;
+}
+
+.addicon .input p {
+  font-family: "Manrope", sans-serif;
+  color: #ffffffc9;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.addicon .input input {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  border-radius: 5px;
+  outline: none;
+  background: transparent;
+  color: #cdcdcd;
+  filter: drop-shadow(0px 0px 25px white);
+  border: 2px solid #6a6a6a;
+  padding: 6px 4px 6px 10px;
+  font-size: 13px;
+  margin-top: 5px;
+  width: 91%;
+}
+
+.addicon .input input:focus {
+  border: 2px solid #2f6fa1;
+}
+
+/*  */
+/*  */
+/*  */
+
+.addicon .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 23rem;
+  gap: 14px;
+  transition: 0.4s;
+}
+
+.addicon .buttons .button_cancel button {
+  background-color: #5f6d7a;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  cursor: url("https://cdn.custom-cursor.com/db/pointer/32/fortnite_zero_skin_black_hole_pointer.png"),
+    auto;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.addicon .buttons .button_cancel button:hover,
+.addicon .buttons .button_save button:hover {
+  color: #e2e2e2;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.addicon .buttons .button_save button {
+  background-color: #343a40;
+  height: 35px;
+  color: #afafaf;
+  width: 100px;
+  transition: 0.4s;
+  border-radius: 5px;
+  border: none;
+  cursor: url("https://cdn.custom-cursor.com/db/pointer/32/fortnite_zero_skin_black_hole_pointer.png"),
+    auto;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+}
+
+@keyframes popup-animation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  15% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(0.3);
+  }
+  60% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes popup-animation-basic {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes remove-popup-animation {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  15% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.3);
+    opacity: 0.6;
+  }
+  80% {
+    transform: scale(0.8);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0.01);
+    opacity: 0.1;
+  }
+}
+
+@keyframes sort-search-animation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes reverse-sort-search-animation {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+.contextmenu {
+  color: white;
+  position: absolute;
+  top: -45%;
+  background: #22232c;
+  left: -47%;
+  width: 162px;
+  padding: 8px;
+  border-radius: 7px;
+  border: 2px solid #ffffff1c;
+  animation: popup-animation-basic 0.3s ease-in-out;
+}
+
+.contextmenu h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  border-bottom: 2px solid #ffffff2e;
+  filter: drop-shadow(0px 0px 7px white);
+}
+
+.contextmenu h3 span {
+  color: #03a9f4;
+  filter: drop-shadow(0px 0px 2px #03a9f4);
+}
+
+.contextmenu .boxs {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contextmenu .boxs .box button {
+  all: inherit;
+  background: #373d43;
+  padding: 6px;
+  width: -webkit-fill-available;
+  font-family: "poppins", sans-serif;
+  border-radius: 7px;
+  font-size: 15px;
+  border: 2px solid #ffffff21;
+  cursor: url("https://cdn.custom-cursor.com/db/pointer/32/fortnite_zero_skin_black_hole_pointer.png"),
+    auto;
+  transition: 0.21s;
+}
+
+.contextmenu .boxs .box button:active {
+  background: rgb(37, 40, 44);
+  filter: drop-shadow(0px 0px 7px rgba(255, 255, 255, 0.386));
+}
+
+/* music right click */
+
+.musicrightclick {
+  color: white;
+  position: absolute;
+  top: -50%;
+  background: #22232c;
+  left: 47%;
+  /* width: 188px; */
+  width: max-content;
+  z-index: 1;
+  padding: 8px;
+  border-radius: 7px;
+  border: 2px solid #ffffff1c;
+  animation: popup-animation-basic 0.3s ease-in-out;
+}
+
+.musicrightclick h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  border-bottom: 2px solid #ffffff2e;
+  margin-top: 10px;
+  filter: drop-shadow(0px 0px 7px white);
+}
+
+.musicrightclick .actor {
+  margin-top: 13px;
+}
+
+.musicrightclick h3 span {
+  color: #03a9f4;
+  filter: drop-shadow(0px 0px 2px #03a9f4);
+}
+
+.musicrightclick .boxs {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.musicrightclick .boxs .box button {
+  all: inherit;
+  background: #373d43;
+  padding: 6px;
+  width: -webkit-fill-available;
+  font-family: "poppins", sans-serif;
+  border-radius: 7px;
+  font-size: 15px;
+  border: 2px solid #ffffff21;
+  cursor: url("https://cdn.custom-cursor.com/db/pointer/32/fortnite_zero_skin_black_hole_pointer.png"),
+    auto;
+  transition: 0.21s;
+}
+
+.musicrightclick .boxs .box button:active {
+  background: rgb(37, 40, 44);
+  filter: drop-shadow(0px 0px 7px rgba(255, 255, 255, 0.386));
+}
+
+/* sortcut */
+
+.sortcut img {
+  height: 10px;
+}
+
+.sortcut {
+  background: #1e2029;
+  top: 44%;
+  border-radius: 6px;
+  width: 28rem;
+  border: 1.9px solid #ffffff30;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-bottom: 6px;
+}
+
+.sortcut .input {
+  display: flex;
+  padding: 9px;
+  align-items: center;
+}
+
+.sortcut .input .search {
+  display: flex;
+}
+
+.sortcut .input .search img {
+  filter: invert(0.8);
+  height: 16px;
+}
+
+.sortcut .input input {
+  font-family: "poppins", sans-serif;
+  width: -webkit-fill-available;
+  padding: 4px;
+  font-size: 15px;
+  margin-left: 3px;
+  background: transparent;
+  color: #ffffffc4;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.sortcut .input .sortcut-key {
+  display: flex;
+}
+
+.sortcut .input .sortcut-key span {
+  border: 1.8px solid #ffffff2e;
+  font-family: "poppins", sans-serif;
+  border-radius: 3px;
+  padding: 2px 7px;
+  color: #ffffffd4;
+  font-size: 13px;
+}
+
+.sortcut .boxs {
+  overflow: scroll;
+  max-height: 17.61rem;
+}
+
+.sortcut .boxs::-webkit-scrollbar {
+  display: none;
+}
+
+.sortcut .boxs .box {
+  font-family: "Manrope", sans-serif;
+  padding: 8px;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.sortcut .boxs .box:hover {
+  background: #0a4274;
+}
+.sortcut .boxs .box:hover .highlight {
+  background: #215789;
+}
+
+.sortcut .boxs .box .highlight {
+  background: #31323b;
+  padding: 4px 8px;
+  color: #ffffffa8;
+  border-radius: 8px;
+  font-size: 14px;
+  border: 2px solid #ffffff12;
+}
+
+.sortcut .boxs .box span:nth-child(2) {
+  font-family: "poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+
+/* songdetail */
+
+.sortcut .boxs .songisnfo {
+  color: white;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+  border-top: 2px solid #ffffff17;
+}
+
+.sortcut .boxs .songisnfo .imags img {
+  height: 90px;
+  width: 90px;
+  border-radius: 7px;
+}
+
+.sortcut .boxs .songisnfo .songis-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sortcut .boxs .songisnfo .songis-info .songnamee {
+  color: gainsboro;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sortcut .boxs .songisnfo .songis-info .actornamee {
+  color: gainsboro;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.sortcut .boxs .songisnfo .songis-info .songnamee span {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  overflow: hidden;
+}
+
+.sortcut .boxs .songisnfo .songis-info .actornamee span {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  overflow: hidden;
+}

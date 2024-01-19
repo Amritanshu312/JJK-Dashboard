@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "AnimeNewTab",
+  "version": "1.0",
+  "description": "AnimeNewTab is a dynamic browser extension that revolutionizes your browsing experience by transforming browser tabs into captivating, high-definition anime-themed. Say goodbye to dull, blank tabs and immerse yourself in a world of vibrant colors, and beloved anime characters every time you open a new tab. Whether you're a die-hard anime fan or simply seeking an aesthetic upgrade for your browsing routine, AnimeNewTab offers a seamless fusion of functionality and visual delight, ensuring each browsing session feels like a journey into your favorite anime universe",
+  "permissions": [
+    "tabs"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "images/app_Icon/4.png",
+    "48": "images/app_Icon/5.png",
+    "128": "images/app_Icon/6.png"
+  }
+}
