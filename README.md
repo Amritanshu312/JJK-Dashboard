@@ -1,12 +1,24 @@
-## The JJK Theme: chrome, Brave, Opera GX
+## The JJK Theme Project: chrome, Brave, Opera GX
+
 
 ## Quick Theme Preview
 ![Preview](https://raw.githubusercontent.com/Amritanshu312/JJK-Dashboard/main/images/preview.png)
 
 ---
 
-# Documentation
+## Overview
+
+Brief description of your project and its purpose. Include any key features or goals.
+
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-  - [New Tab Override](#new-tab-override)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+Provide instructions on how to install and set up the jjk theme. Include any dependencies or prerequisites.
+
